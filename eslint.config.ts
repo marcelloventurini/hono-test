@@ -19,7 +19,7 @@ export default defineConfig([
   js.configs.recommended,
   ...tseslint.configs.recommended,
 
-  // 3. Suas regras customizadas (devem vir DEPOIS dos extends para sobresscrevê-los)
+  // 3. Regras customizadas (devem vir DEPOIS dos extends para sobresscrevê-los)
   {
     rules: {
       'no-unused-vars': 'error',
